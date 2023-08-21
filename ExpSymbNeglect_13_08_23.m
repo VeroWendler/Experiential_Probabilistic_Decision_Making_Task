@@ -23,8 +23,7 @@ Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
 [screenXpixels, screenYpixels] = Screen('WindowSize', window);
 [xCenter, yCenter] = RectCenter(windowRect);
 ifi = Screen('GetFlipInterval', window);
-[xCenter, yCenter] = RectCenter(windowRect);
-Screen('BlendFunction', window, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');        
+
 % Introduction Message 
 
 line1 = 'Welcome to this experiment. This experiment is composed of 3 main steps:';
